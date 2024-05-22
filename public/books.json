@@ -1,0 +1,84 @@
+[
+    {
+     "id": 1,
+     "image": " https://i.ibb.co/Y4SK3ct/pexels-itismowgli-824197.jpg",
+     "bookName": "Hooked",
+     "author": "Nir LLC",
+     "review": "This memoir by the former First Lady of the United States is an intimate and inspiring account of her life. From her childhood in Chicago to her experiences in the White House, Obama shares personal anecdotes and reflections on identity, family, and public service.",
+     "totalPages": "310",
+     "rating": "4",
+     "category": "Fantasy",
+     "tags": ["Fiction","Fantasy"],
+     "publisher": "Crown Publishing Group",
+     "yearOfPublishing": "1963"
+     
+     
+   },
+   {
+    "id": 2,
+    "image": "https://i.ibb.co/cbhNRSQ/pexels-pixabay-256450.jpg",
+    "bookName": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "review": "This novel is a poignant and atmospheric tale set in the swamps of North Carolina. It follows the life of Kya Clark, a young girl who grows up isolated in the marsh and becomes a suspect in a local murder case. Owens masterfully weaves a narrative of resilience, nature, and the human spirit.",
+    "totalPages": "220",
+    "rating": "4.5",
+    "category": "Fiction",
+    "tags": ["Fiction","suspense"],
+    "publisher": "G.P. Putnam's Sons",
+    "yearOfPublishing": "1953"
+     },
+     {
+       "id": 3,
+       "image": "https://i.ibb.co/C7Gbb6F/pexels-polina-zimmerman-3747163.jpg",
+       "bookName": "Educated",
+        "author": "Tara Westover",
+        "review": "This is a gripping memoir that chronicles Westover's journey from a survivalist family in rural Idaho to earning a PhD from Cambridge University. Her story is a testament to the transformative power of education and the courage required to redefine oneself.",
+        "totalPages": "320",
+        "rating": "3",
+        "category": "Memoir",
+        "tags": ["Memoir","suspense"],
+        "publisher": "G.P. Putnam's Sons",
+        "yearOfPublishing": "1953"
+     },
+     {
+       "id": 4,
+       "image": "https://i.ibb.co/P4RFwyG/pexels-thought-catalog-317580-904620.jpg",
+       "bookName": "Becoming",
+        "author": "Michelle Obama",
+         "review": "This memoir by the former First Lady of the United States is an intimate and inspiring account of her life. From her childhood in Chicago to her experiences in the White House, Obama shares personal anecdotes and reflections on identity, family, and public service.",
+        "totalPages": "380",
+        "rating": "4",
+        "category": "Memoir",
+        "tags": ["Memoir","suspense"],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": "1996"
+     },
+     {
+       "id": 5,
+       "image": "https://i.ibb.co/2k11zkq/pexels-thought-catalog-317580-2228586.jpg",
+       "bookName": "The Silent Patient",
+        "author": "Alex Michaelides",
+       "review":"A psychological thriller about Alicia Berenson, a famous painter who shoots her husband and then stops speaking. Theo Faber, a forensic psychologist, becomes obsessed with uncovering the truth behind her silence. Michaelides delivers a suspenseful narrative with a shocking twist.",
+       "totalPages": "380",
+        "rating": "3",
+        "category": "Psychological Thriller",
+        "tags": ["MemoirPsychological Thriller","suspense"],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": "1986"
+     },
+     {
+       "id": 6,
+       "image": "https://i.ibb.co/GCBpD0G/pexels-yogendras31-731510.jpg",
+       "bookName": "Circe",
+        "author": " Madeline Miller",
+        "review":"This novel reimagines the life of Circe, the enchantress from Homer's Miller's lyrical prose and deep character study bring new dimensions to the myth, portraying Circe's journey of self-discovery and her struggle to find a place in a world of gods and mortals.",
+        "totalPages": "380",
+        "rating": "5",
+        "category": "Mythological Fiction",
+        "tags": ["Mythological Fiction","suspense"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": "1999"
+       
+     }
+ 
+ ]
