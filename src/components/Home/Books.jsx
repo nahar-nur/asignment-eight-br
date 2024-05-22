@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Book from "./book";
-import { key } from "localforage";
+import Book from './Book';
+
 
 
 
@@ -15,7 +15,7 @@ const Books = () => {
     return (
         <div className="mt-32">
             <h2 className="text-5xl font-semibold text-center">Books: {books.length}</h2>
-            <div>
+            <div className="grid grid-cols-3 gap-6 mt-12">
                 {
                     books.map(book=><Book book={book} key={book.id}></Book>)
                 }
