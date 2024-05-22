@@ -1,7 +1,7 @@
 [
     {
      "id": 1,
-     "image": " https://i.ibb.co/Y4SK3ct/pexels-itismowgli-824197.jpg",
+     "image": "https://i.ibb.co/P4RFwyG/pexels-thought-catalog-317580-904620.jpg",
      "bookName": "Hooked",
      "author": "Nir LLC",
      "review": "This memoir by the former First Lady of the United States is an intimate and inspiring account of her life. From her childhood in Chicago to her experiences in the White House, Obama shares personal anecdotes and reflections on identity, family, and public service.",
@@ -23,7 +23,7 @@
     "totalPages": "220",
     "rating": "4.5",
     "category": "Fiction",
-    "tags": ["Fiction","suspense"],
+    "tags": ["Fiction", "suspense"],
     "publisher": "G.P. Putnam's Sons",
     "yearOfPublishing": "1953"
      },
@@ -42,7 +42,7 @@
      },
      {
        "id": 4,
-       "image": "https://i.ibb.co/P4RFwyG/pexels-thought-catalog-317580-904620.jpg",
+       "image": "https://i.ibb.co/Y4SK3ct/pexels-itismowgli-824197.jpg",
        "bookName": "Becoming",
         "author": "Michelle Obama",
          "review": "This memoir by the former First Lady of the United States is an intimate and inspiring account of her life. From her childhood in Chicago to her experiences in the White House, Obama shares personal anecdotes and reflections on identity, family, and public service.",
@@ -82,3 +82,4 @@
      }
  
  ]
+ 
