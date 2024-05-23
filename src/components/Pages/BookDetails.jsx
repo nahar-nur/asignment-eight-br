@@ -1,11 +1,26 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import {saveReadBook} from '../../components/Utility/localStorage'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const BookDetails = () => {
+  
+  
+
     const books = useLoaderData()
     const {id, image, bookName, author,category,review,tags,totalPages,publisher,yearOfPublishing,rating}= useParams()
     const idInt = parseInt(id)
     const book = books.find(book=> book.id===idInt)
     console.log(book,id);
+
+    const handleToRead = ()=>{
+      saveReadBook(idInt)
+      toast('You have already read it')
+    };
+    const handlWishList=()=>{
+      toast('added to list')
+    }
 
     return (
         <div className="mt-12">
@@ -29,11 +44,12 @@ const BookDetails = () => {
       <h3>Year of Publishing: {book.yearOfPublishing}</h3>
       <br />
       <p>Rating: {book.rating}</p>
-      <button className="btn btn-primary mr-2 mt-4">Read</button>
-      <button className="btn btn-secondary ml-2 mt-4">Wishlist</button>
+      <button onClick={handleToRead} className="btn btn-primary mr-2 mt-4">Read</button>
+      <button onClick={handlWishList}  className="btn btn-secondary ml-2 mt-4">Wishlist</button>
     </div>
   </div>
 </div>
+<ToastContainer />
         </div>
     );
 };
