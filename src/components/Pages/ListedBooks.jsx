@@ -7,7 +7,13 @@ import { getStoredreadBook } from "../Utility/localStorage";
 const ListedBooks = () => {
     
     const books = useLoaderData();
-    const [listedBooks, setListedBooks]= useState([])
+    const [listedBooks, setListedBooks]= useState([]);
+    const[displayBooks, setDisplayBooks]= useState([]);
+    const handleBookSort = filter=>{
+        if(filter==='rating'){
+            setDisplayBooks(listedBooks)
+        }
+    }
 
     useEffect( ()=>{
         const storedBookIds = getStoredreadBook()
@@ -22,15 +28,23 @@ const ListedBooks = () => {
             // }
 
             setListedBooks(booksListed);
+            setDisplayBooks(booksListed)
             // console.log(bookListed);
         }
-    },[])
+    },[books])
     return (
         <div className="mt-12">
             <h2 className="text-5xl text-center">Books: {listedBooks.length}</h2>
+            <div className="dropdown dropdown-hover mt-12 center">
+  <div tabIndex={0} role="button" className="btn m-1 text-center">Sort by</div>
+  <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li onClick={()=>{handleBookSort('rating')}}><a>rating</a></li>
+    <li><a>rating</a></li>
+  </ul>
+</div>
             <div>
                 {
-                    listedBooks.map(book=> <li key={book.id}>
+                    displayBooks.map(book=> <li key={book.id}>
             <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
     <img src={book.image} className="max-w-sm rounded-lg shadow-2xl mr-12" />

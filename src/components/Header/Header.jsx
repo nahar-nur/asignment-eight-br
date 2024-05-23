@@ -33,8 +33,8 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <a className="btn">Sign In</a>
-    <a className="btn">Sign Up</a>
+  <a className="btn bg-green-500 mr-2">Sign In</a>
+    <a className="btn btn-primary">Sign Up</a>
   </div>
 </div>
             
